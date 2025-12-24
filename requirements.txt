@@ -1,0 +1,40 @@
+# Core ML & Data
+numpy
+pandas
+scikit-learn
+scipy
+joblib
+
+# Visualization
+matplotlib
+seaborn
+
+# MLOps & Config
+mlflow
+pyyaml
+python-dotenv
+
+# API / Model Serving
+fastapi
+uvicorn
+
+# Testing
+pytest
+pytest-cov
+
+# Formatting, Linting, Type Checking
+black
+flake8
+isort
+mypy
+
+# Pre-commit hooks
+pre-commit
+
+# Packaging
+setuptools
+wheel
+
+# Notebooks (optional)
+jupyterlab
+ipykernel

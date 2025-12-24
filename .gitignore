@@ -1,0 +1,89 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===============================
+# Virtual Environments
+# ===============================
+venv/
+.venv/
+env/
+ENV/
+.env/
+
+
+# ===============================
+# Data (DO NOT COMMIT REAL DATA)
+# ===============================
+data/raw/
+data/interim/
+data/processed/
+data/external/
+
+# ===============================
+# Model Artifacts
+# ===============================
+models/
+artifacts/
+
+# ===============================
+# MLflow
+# ===============================
+mlruns/
+mlartifacts/
+
+# ===============================
+# Notebooks
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# Testing & Coverage
+# ===============================
+.coverage
+htmlcov/
+pytest_cache/
+
+# ===============================
+# Linting / Formatting Caches
+# ===============================
+.mypy_cache/
+.ruff_cache/
+
+# ===============================
+# Secrets & Environment
+# ===============================
+.env
+.env.*
+*.pem
+*.key
+
+# ===============================
+# Build / Distribution
+# ===============================
+build/
+dist/
+*.egg-info/
+
+# ===============================
+# OS / IDE
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
+# Docker runtime / local
+**/.docker/
+docker-data/
