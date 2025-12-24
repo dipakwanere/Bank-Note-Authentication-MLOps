@@ -32,3 +32,9 @@ jobs:
 
     - name: Build Docker image
       run: docker build -t banknote-api .
+
+  #     - name: Run container
+  # run: |
+  #   docker run -d -p 5000:5000 --name api banknote-api
+  #   sleep 5
+  #   curl http://localhost:5000/

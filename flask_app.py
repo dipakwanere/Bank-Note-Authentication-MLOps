@@ -2,7 +2,8 @@ from flask import Flask, request, jsonify
 import pickle
 import pandas as pd
 import numpy as np
-import flasgger
+
+# import flasgger
 from flasgger import Swagger
 
 app = Flask(__name__)
