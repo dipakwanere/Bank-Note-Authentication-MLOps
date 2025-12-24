@@ -42,3 +42,4 @@ ipykernel
 # models storing
 joblib
 flask
+flasgger
