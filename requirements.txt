@@ -38,3 +38,7 @@ wheel
 # Notebooks (optional)
 jupyterlab
 ipykernel
+
+# models storing
+joblib
+flask
