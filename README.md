@@ -17,15 +17,19 @@ docker build -t banknote-api .
 ```
 Check the image created
 
-```docker images
+```
+docker images
 ```
 
 See the running containers
 
-```docker ps
+```
+docker ps
 ```
 
 Run the docker container
 
 ```
 docker run -p 5000:5000 banknote-api
+```
+
