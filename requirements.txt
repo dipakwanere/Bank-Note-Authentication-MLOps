@@ -23,7 +23,7 @@ pytest
 pytest-cov
 
 # Formatting, Linting, Type Checking
-black
+#black
 flake8
 isort
 mypy

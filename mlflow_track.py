@@ -106,7 +106,9 @@ with mlflow.start_run(run_name=RUN_NAME):
 
     # Log model
     mlflow.sklearn.log_model(
-        model, artifact_path="model", registered_model_name=REGISTERED_MODEL_NAME
+        model,
+        artifact_path="model",
+        registered_model_name=REGISTERED_MODEL_NAME,
     )
 
 print("MLflow tracking completed successfully")
