@@ -33,3 +33,21 @@ Run the docker container
 docker run -p 5000:5000 banknote-api
 ```
 
+
+
+# Model performance tracking with mlflow and logging
+Refer to the code in `mlflow_track.py` for implementation details.
+
+# Installation of mlflow
+
+```
+pip install mlflow
+```
+
+# Lunch mlflow UI
+
+```
+mlflow ui
+```
+
+![alt text](image.png)

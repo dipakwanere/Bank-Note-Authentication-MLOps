@@ -43,3 +43,4 @@ ipykernel
 joblib
 flask
 flasgger
+mlflow
