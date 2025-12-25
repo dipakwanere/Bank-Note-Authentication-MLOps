@@ -117,3 +117,5 @@ def predict_note_authentication_file():
 
 if __name__ == "__main__":
     app.run(debug=False)
+# main()
+# app.run(debug=False)

@@ -27,8 +27,8 @@ data/external/
 # ===============================
 # Model Artifacts
 # ===============================
-models/
-artifacts/
+#models/
+#artifacts/
 
 # ===============================
 # MLflow
